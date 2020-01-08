@@ -1,0 +1,2 @@
+docker run --name Abathur --interactive --tty --volume ${HOME}:/root --publish 3000:3000 python:2-slim bash
+root@01167841569c:/# pip install flask && python /root/flask_web/app.py

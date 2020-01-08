@@ -1,0 +1,1 @@
+docker container run --detach --name=overlord --publish 5000:80 --restart always nginx

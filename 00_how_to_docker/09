@@ -1,0 +1,3 @@
+# docker container run --rm --interactive --tty debian
+apt-get update && apt-get -y upgrade
+apt-get -y install gcc git
